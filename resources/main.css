@@ -1,0 +1,355 @@
+html, body {
+    margin: 0;
+    height: 99%;
+}
+.container {
+    font-size: 15px;
+    font-family: 'Volkhov', serif;
+    height: 100%;
+}
+header {
+    text-align: center;
+    font-size: 0.8em;
+    height: 4%;
+    padding-top: 7.5px;
+    color: #f2ede8;
+    background-color: #231f20;
+}
+aside {
+    display: flex; 
+    flex-direction: column;
+    width: 25%;
+    height: 96%;
+    padding-left: 5%;
+    background-color: #f2ede8;
+    float: left;
+}
+aside nav {
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    justify-content: space-between;
+    align-items: left;
+    margin-top: 10%;
+    padding-left: 20%;
+    font-weight: 700;
+    font-size: 1em;
+}
+aside nav a:link, aside nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+.sidebar-icon {
+    margin-bottom: 10%;
+}
+section nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10%;
+}
+section nav a img {
+    height: 2em;
+    width: auto;
+}
+section nav a {
+    margin-right: 50px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+section {
+    background-color: #f8f5f2;
+    height: 96%;
+}
+.nav-container {
+    overflow: hidden;
+    height: 90%;
+    position: relative;
+}
+.underline {
+    width: 70%;
+    border-bottom: 7px solid lightgrey;
+    line-height: 0.6em;
+}
+.hidden {
+    visibility: hidden;
+}
+
+/* account settings */
+
+.account-settings-wrapper {
+    z-index: 1;
+    position: absolute;
+    padding: 0 5%;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+}
+h2 {
+    font-size: 2.2em;
+}
+label {
+    display: none;
+}
+form {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+form div {
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+}
+.input {
+    width: 47%;
+    background-color: #f8f5f2;
+    border: 1px solid  grey;
+    padding-left: 10px;
+}
+
+form div button {
+    width: 48.5%;
+    background-color: #231f20;
+    color: #e8e0d8;
+    border: 0;
+}
+.addresses-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.addresses-wrapper div {
+    width: 47.5%;
+    padding: 20px 0 20px 10px;
+    background-color: #231f20;
+    color: #e8e0d8;
+    border-radius: 20px;
+}
+.underline {
+    width: 70%;
+    border-bottom: 7px solid lightgrey;
+    line-height: 0.6em;
+}
+
+/* order details */
+
+.order-details-wrapper {
+    z-index: 2;
+    padding: 0 5%;
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+}
+.order-details-wrapper>div:first-child {
+    font-size: 0.7em;
+    margin-bottom: 3%;
+}
+h2 {
+    font-size: 2.2em;
+    line-height: 1.2em;
+    margin: 0;
+    
+}
+.title span {
+    border: 1px solid blue;
+}
+.cancelled {
+    font-size: 1.3em;
+    line-height: 1.6em;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.order-details>div {
+    display: flex;
+    width: 100%;
+    margin-bottom: 7%;
+}
+.order-details>div>div {
+    width: 33%;
+}
+.order-details>div:nth-child(2), .order-details>div:nth-child(3) {
+    font-size: 0.7em;
+}
+.bigger-fonts {
+    font-size: 1.5em;
+}
+
+/* payment methods */
+
+.payment-methods-wrapper {
+    z-index: 3;
+    padding: 0 5%;
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+h2 {
+    font-size: 2.2em;
+}
+.cards-wrapper {
+    width: 70%;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;   
+}
+.card {
+    width: 45%;
+    height: 50%;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.add-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2ede8;
+    width: 45%;
+    height: auto;
+}
+.add-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* reward status */
+
+.reward-status-wrapper {
+    z-index: 4;
+    padding: 0 5%;
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+h2 {
+    font-size: 2.2em;
+}
+.rewards {
+    font-size: 1em;
+    font-weight: 700;
+}
+.rewards>div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.rewards>div>div {
+    width: 33%;
+    
+}
+.rewards img {
+    width: 70px;
+    height: 70px;
+}
+.rewards span {
+    font-size: 1.3em;
+}
+.rewards-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* your orders */
+
+.your-orders-wrapper {
+    z-index: 5;
+    padding: 0 5%;
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 2.2em;
+}
+h1 {
+    visibility: hidden;
+}
+section nav {
+    visibility: hidden;
+}
+.orders {
+    display: flex;
+    height: 65%;
+}
+.first-item-photo {
+    width: 35%;
+    background-color: #f2ede8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-item-photo img {
+    width: auto;
+    height: 80%;
+    
+}
+.orders-info {
+    width: 65%;
+    font-weight: 700;
+    font-size: 0.7em;
+    line-height: 2em;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.orders-info>div:first-child {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 7%;
+}
+.orders-info div div span {
+    font-size: 1.6em;
+}
+.orders-info div:nth-child(2) {
+margin-bottom: 4%;
+}
+.orders-info a {
+    text-decoration: none;
+}
+.orders-info a:link {
+    text-decoration: none;
+    color: black;
+}
+.items {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+.items img {
+    width: 80%;
+    height: auto;
+}
+.items>div {
+    margin-right: 20px;
+    background-color: #f2ede8;
+    height: 100%;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items>div:last-child {
+    flex-direction: column;
+}

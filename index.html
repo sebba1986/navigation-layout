@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Shop</title>
+        <meta name="author" content="Ciulu Sebastian">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="shop">
+        <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
+        <link href="resources/main.css" type="text/CSS" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <span>Free shipping on orders over $250</span>
+            </header>
+            <aside>
+                <h1>BOUNDARY</h1>
+                <nav>
+                    <div class="sidebar-icon">
+                        <img id="imgLogo" src="assets/logo-elite.png" alt="logo">
+                    </div>
+                    <a class="menu-item" data-content="your-orders-wrapper">Your Orders</a>
+                    <a class="menu-item" data-content="reward-status-wrapper">Reward Status</a>
+                    <a class="menu-item  underline" data-content="account-settings-wrapper">Account Settings</a>
+                    <a class="menu-item" data-content="payment-methods-wrapper">Payment Methods</a>
+                    <a href="sign-out.html">Sign Out</a>
+                </nav>
+            </aside>
+        
+            <section>
+                <nav>
+                    <a>SHOP</a>
+                    <a><img src="assets/icon-find.png" alt="find"></a>
+                    <a><img src="assets/icon-cart-2.png" alt="cart"></a>
+                    <a><img src="assets/icon-exit-3.png" alt="exit"></a>
+                </nav>
+                <div class="nav-container">
+                    <div class="content account-settings-wrapper">
+                        <h2>Account<br> Settings</h2>
+                        <h3>Account</h3>
+                        <form>
+                            <div>
+                                <input class="input" type="text" name="name_Input" id="nameInput" placeholder="Ben Cline">
+                                <label for="nameInput">name</label>
+                                <input class="input" type="text" name="phone_Input" id="phoneInput" placeholder="+1 801 641 09">
+                                <label for="phoneInput">phone</label>
+                            </div>
+                            <div>
+                                <input class="input" type="email" name="email_Input" id="emailInput" placeholder="ben@rallyinteractive.com">
+                                <label for="emailInput">email</label>
+                                <input class="input" type="password" name="password_Input" id="passwordInput" placeholder="***********">
+                            </div>
+                            <div><button type="button">SAVE CHANGES</button></div>
+                        </form>
+                       <h3>Addresses</h3>
+                       <div class="addresses-wrapper">
+                           <div>
+                               Ben Cline<br>
+                               1234 S. Flestwood Mac Dr<br>
+                               Salt Lake City, UT B4109<br>
+                               United States<br>
+                               +1 801 641 09
+                           </div>
+                           <div>
+                               Ben Cline<br>
+                               C/O Rally Interactive<br>
+                               Salt Lake City, UT B4109<br>
+                               United States<br>
+                               +1801 641 09
+                           </div>
+                       </div>
+                    </div>
+                    <div class="content order-details-wrapper hidden" id="orderDetails">
+                        <div>Your Orders/Order $30002</div>
+                        <div class="order-details">
+                            <div>
+                                <div><h2>Order<br>Details</h2></div>
+                                <div></div>
+                                <div class="cancelled"><span>Order<br>Cancelled<span></span></div>
+                            </div>
+                            <div>
+                                <div class="bigger-fonts">Billing</div>
+                                <div>
+                                    <div>Rally Interactive</div>
+                                    <div>244 W 300 N</div>
+                                    <div>Salt Lake City, Utah 84103</div>
+                                    <div>United States</div>
+                                    <div>(801)643-3595</div>
+                                </div>
+                                <div>Payment Status:<br>Refunded</div>
+                            </div>
+                            <div>
+                                <div class="bigger-fonts">Shipping</div>
+                                <div>
+                                    <div>Rally Interactive</div>
+                                    <div>244 W 300 N</div>
+                                    <div>Salt Lake City, Utah 84103</div>
+                                    <div>United States</div>
+                                    <div>(801)643-3595</div>
+                                </div>
+                                <div>Payment Status:<br>Unfulfilled</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content payment-methods-wrapper hidden">
+                        <h2><div>Payment</div><div>Methods</div></h2>
+                        <div class="cards-wrapper">
+                            <div class="cards">
+                                <div class="card"><img src="assets/card-1.png" alt="amex"></div>
+                                <div class="card"><img src="assets/card-3.png" alt="visa"></div>
+                            </div>
+                            <div class="cards">
+                                <div class="card"><img src="assets/card-2.png" alt="mastercard"></div>
+                                <div class="add-card"><img src="assets/icon-plus.png" alt="icon"><span>ADD CARD</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content reward-status-wrapper hidden">
+                        <h2><div>Reward</div><div>Status</div></h2>
+                        <div class="rewards">
+                            <div>
+                                <div>Activity</div>
+                                <div><span>VIP</span><div>Current Status</div></div>
+                                <div><span>GOLD</span><div>Next Tier</div></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><span>$ 678.42</span><div>Lifetime spend</div></div>
+                                <div><span>$ 321.68</span><div>To Gold Status</div></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><span>003</span><div>Orders</div></div>
+                                <div><span>007</span><div>Referrals</div></div>
+                            </div>
+                            <div>
+                                <div>Benefits</div>
+                                <div class="rewards-icons"><img src="assets/icon-recurrent.png" alt="icon"><img src="assets/icon-savings.png" alt="icon-2"></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content your-orders-wrapper hidden">
+                        <h2><div>Your</div><div>Orders</div></h2>
+                        <div class="orders">
+                            <div class="first-item-photo"><img src="assets/product-1/product.png" alt="product"></div>
+                            <div class="orders-info">
+                                <div>
+                                    <div>April 1, 2019<br>
+                                        <span>Processing</span><br>
+                                            <br>
+                                            Order #<br>
+                                            <span>30004</span><br>
+                                            <br>
+                                            Order total<br>
+                                            <span>$324.96</span>
+                                    </div>
+                                    <div><a id="orderDetailsBtn">Order Details</a><br>
+                                         <a>Cancel/Modify</a>
+                                    </div>
+                                </div>
+                                <div>Also in this order</div>
+                                <div class="items">
+                                    <div><img src="assets/product-1/addition-1.png" alt="item"></div>
+                                    <div><img src="assets/product-1/addition-3.png" alt="item"></div>
+                                    <div><img src="assets/product-1/addition-4.png" alt="item"></div>
+                                    <div><div>+3</div>
+                                         <div>more</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script src="resources/main.js"></script>
+    </body>
+</html>
