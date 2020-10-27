@@ -287,12 +287,6 @@ h2 {
 h2 {
     font-size: 2.2em;
 }
-h1 {
-    visibility: hidden;
-}
-section nav {
-    visibility: hidden;
-}
 .orders {
     display: flex;
     height: 65%;
@@ -358,4 +352,7 @@ margin-bottom: 4%;
 }
 .items>div:last-child {
     flex-direction: column;
+}
+#orderDetailsBtn {
+    cursor: pointer;
 }
