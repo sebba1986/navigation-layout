@@ -39,6 +39,12 @@ aside nav a:link, aside nav a:visited {
     text-decoration: none;
     color: black;
 }
+
+aside nav a {
+    /* vrei acest efect ca sa invite user-ul la call to action. poti sa il comentezi sa vezi ce se intampla fara */
+    cursor: pointer;
+}
+
 .sidebar-icon {
     margin-bottom: 10%;
 }

@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             }
             document.getElementsByClassName(dataContent)[0].classList.remove("hidden");
             let imgLogo = document.getElementById("imgLogo");
+            // este mai recomandat sa implementezi un switch aici, decat atatea if..else-uri
             if(dataContent == "your-orders-wrapper") {
                 imgLogo.src = "../navigation-layout/assets/logo-vip.png";
             } else if(dataContent == "reward-status-wrapper") {
